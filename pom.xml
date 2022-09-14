@@ -8,11 +8,13 @@
 		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>org.arslan</groupId>
-	<artifactId>GenericApp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>GenericApp</name>
-	<description>GenericApplication</description>
+	<artifactId>DependencyInjection</artifactId>
+	<version>1.0.0</version>
+	<name>DependencyInjection</name>
+	<description>Sample Application for Dependency Injection</description>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -22,12 +24,23 @@
 			<id>arslanapp</id>
 			<url>https://github.com/mucahitarslaan/arslanapp.git</url>
 		</repository>
+
+		<repository>
+			<id>javaapp1-feb-2021</id>
+			<url>http://raw.github.com/oguzkaran7javaapp1-geb-2021-maven-repo/main</url>
+		</repository>
 	</repositories>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.csystem</groupId>
+			<artifactId>org-csystem-util-console</artifactId>
+			<version>4.0.0</version>
 		</dependency>
 
 		<dependency>
