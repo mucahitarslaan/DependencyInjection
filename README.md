@@ -1,3 +1,3 @@
 SPRING BOOT
 
-Annotations - Dependenct Injection
+Annotations - Dependency Injection
