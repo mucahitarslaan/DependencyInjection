@@ -27,7 +27,7 @@
 
 		<repository>
 			<id>javaapp1-feb-2021</id>
-			<url>http://raw.github.com/oguzkaran7javaapp1-geb-2021-maven-repo/main</url>
+			<url>http://raw.github.com/oguzkaran/javaapp1-feb-2021-maven-repo/main</url>
 		</repository>
 	</repositories>
 
